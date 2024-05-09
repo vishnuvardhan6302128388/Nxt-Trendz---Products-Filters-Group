@@ -1,0 +1,82 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.list {
+  list-style-type: none;
+}
+.active {
+  color: blue;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+
+  width: 200px;
+  height: 30px;
+}
+.inputEl {
+  border: 1px solid gray;
+  height: 30px;
+  width: 200px;
+}
+.heading {
+  font-size: 20px;
+}
+.stars {
+  width: 150px;
+  height: 30px;
+}
+.rating-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background-color: white;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.p {
+  color: #ffffff;
+  padding-left: 30px;
+}
+.ratings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.category-container {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.btn {
+  text-align: center;
+  border: 1px solid blue;
+  background-color: transparent;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-left: 80px;
+  height: 30px;
+  width: 100px;
+  color: blue;
+}
+.heading2 {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+}
